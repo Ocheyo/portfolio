@@ -26,6 +26,10 @@ td {
   height: 75px;
 }
 
+.screenshots {
+  overflow: hidden;
+}
+
 .screenshots img {
   width: inherit;
   height: inherit;

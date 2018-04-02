@@ -1,0 +1,43 @@
+body {
+  width: 600px;
+  background-color: cadetblue;
+}
+
+a {
+  color: navy;
+}
+
+tr {
+  display: inline-flex;
+  height: 200px;
+}
+
+td {
+  width: 350px;
+  display: inline-table;
+  margin: 0 15px 0 0;
+}
+
+.titles {
+  height: 40px;
+}
+
+.descriptions {
+  height: 75px;
+}
+
+.screenshots img {
+  width: inherit;
+  height: inherit;
+}
+
+.header {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.content {
+  width: 100%;
+  margin: 0 auto;
+}
+

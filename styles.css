@@ -20,8 +20,23 @@ td {
   margin: 0 15px 0 0;
 }
 
+img {
+  box-shadow: 5px 5px 5px 5px darkcyan, -5px -5px 5px 5px darkcyan;
+}
+
+hr {
+  border-color: navy;
+  background-color: navy;
+}
+
 .titles {
   height: 40px;
+}
+
+.titles h2 {
+  margin: 0;
+  padding: 0;
+  text-shadow: darkcyan 4px 5px 9px;
 }
 
 .descriptions {
@@ -35,6 +50,11 @@ td {
 .screenshots img {
   width: inherit;
   height: inherit;
+}
+
+.screenshots img:hover {
+  transform: scale(2) translate(100px);
+  z-index: 2;
 }
 
 .header {

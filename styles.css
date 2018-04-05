@@ -11,12 +11,10 @@ tr {
   margin: auto;
   padding: 0;
   display: table-row;
-  height: 200px;
 }
 
 td {
   display: table-cell;
-  width: 350px;
   margin: 0 15px 0 0;
 }
 

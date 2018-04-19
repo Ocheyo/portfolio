@@ -3,7 +3,11 @@ import React, {Component} from 'react';
 class Sidebar extends Component {
   render() {
     return (
-      <h3>This is the Sodebar</h3>
+      <div>
+        <h3>Alex Jaynes</h3>
+        <p>LinkedIn</p>
+        <p>GitHub</p>
+      </div>
     );
   }
 }

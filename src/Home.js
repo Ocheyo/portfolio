@@ -7,8 +7,8 @@ class Home extends Component {
     return (
       <div>
         This is Home
-        <Sidebar />
-        <Nav />
+        <Sidebar id="Sidebar" />
+        <Nav id="Nav" />
       </div>
     )
   }

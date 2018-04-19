@@ -1,5 +1,5 @@
 body {
-  width: 600px;
+  width: 100%;
   background-color: cadetblue;
 }
 
@@ -58,6 +58,8 @@ hr {
 .header {
   width: 100%;
   margin: 0 auto;
+  padding: 10px 10px 10px 10px;
+  background-color: cornflowerblue;
 }
 
 .content {

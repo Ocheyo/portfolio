@@ -16,6 +16,7 @@ h5 {
 }
 
 .Sidebar {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   box-shadow: 5px -10px 10px 5px slategray inset;
   display: inline-block;
   padding: 10px;
@@ -49,7 +50,13 @@ h5 {
 }
 
 .Nav {
-   box-shadow: 5px 10px 10px 5px slategray inset;
+  font-family: Cambria,
+  Cochin,
+  Georgia,
+  Times,
+  'Times New Roman',
+  serif;
+  box-shadow: 5px 10px 10px 5px slategray inset;
   padding: 10px;
   background-color: darkslategray;
   height: 90px;
@@ -80,6 +87,7 @@ h5 {
 }
 
 .content {
+  font-family: Helvetica, Arial, sans-serif;
   display: inline-block;
   position: absolute;
   padding: 10px 10px 10px 10px;

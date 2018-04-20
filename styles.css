@@ -46,8 +46,7 @@ hr {
 }
 
 .screenshots img {
-  width: inherit;
-  height: inherit;
+  width: 300px;
 }
 
 .screenshots img:hover {

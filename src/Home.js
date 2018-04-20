@@ -1,14 +1,26 @@
 import React, {Component} from 'react';
 import Sidebar from './Sidebar';
 import Nav from './Nav';
+import Content from './Content';
 
 class Home extends Component {
+  constructor() {
+    super();
+    this.state = {
+     current: 'Home'
+    };
+  }
+
+  clickHandler(target) {
+    this.setState({current: target});
+  }
+
   render() {
     return (
       <div>
-        This is Home
-        <Sidebar id="Sidebar" />
-        <Nav id="Nav" />
+        <Nav current={this.state.current} onClick={this.clickHandler.bind(this)}/>
+        <Sidebar />
+        <Content current={this.state.current} />
       </div>
     )
   }

@@ -22,7 +22,7 @@ h5 {
 
 .Sidebar {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  box-shadow: 5px -10px 10px 5px slategray inset;
+  box-shadow: 15px -20px 30px 5px slategray inset;
   display: inline-block;
   padding: 10px;
   background-color: darkslategray;
@@ -61,7 +61,7 @@ h5 {
   Times,
   'Times New Roman',
   serif;
-  box-shadow: 5px 10px 10px 5px slategray inset;
+  box-shadow: 15px 20px 30px 5px slategray inset;
   padding: 10px;
   background-color: darkslategray;
   height: 90px;

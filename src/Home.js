@@ -19,8 +19,10 @@ class Home extends Component {
     return (
       <div>
         <Nav current={this.state.current} onClick={this.clickHandler.bind(this)}/>
-        <Sidebar />
-        <Content current={this.state.current} />
+        <div className="page">
+          <Sidebar />
+          <Content current={this.state.current} />
+        </div>
       </div>
     )
   }

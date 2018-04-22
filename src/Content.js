@@ -14,9 +14,9 @@ const contents = {
   Home: (
     <div>
       <h3>SOFTWARE ENGINEER</h3>
-      <p>As a software engineer, I enjoy bringing my particular creative and intuitive approach to problem-solving. I really enjoy algorithms, reminiscent of working through puzzle books as a child. Brain teasers and riddles were addicting. Now, code challenges and app development provide that rush.</p>
+      <p>As a software engineer, I enjoy bringing my particular creative and intuitive approach to problem-solving. I really dig algorithms, reminiscent of working through puzzle books as a child. Brain teasers and riddles were addicting. Now, code challenges and app development provide that rush.</p>
       <p>I started out with BASIC, writing build-your-own-adventure book style games to send to classmates. I moved on to VBA for Excel and wrote macros to make life easier at my family's print shop. From there, I went on learning Javascript and web development, which is still my passion.</p>
-      <p>I am adaptive and resourceful, I love finding an efficient solution to a complicated problem. I enjoy working with React, as well as SQL databases. Building full-stack apps using Node.js and Express has given me experience using Redux, Sockets, NoSQL databases, and AWS, among other technologies. An application really coming together gives me the thrill and sense of accomplishment that makes the hard work and frustration really worthwhile.</p>
+      <p>I am adaptive and resourceful, I love finding an efficient solution to a complicated problem. I like working with React, as well as SQL databases. Building full-stack apps using Node.js and Express has given me experience using Redux, Sockets, NoSQL databases, and AWS, among other technologies. An application really coming together gives me the thrill and sense of accomplishment that makes the hard work and frustration really worthwhile.</p>
     </div>
   ),
 

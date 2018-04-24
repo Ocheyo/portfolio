@@ -27,7 +27,7 @@ hr {
 .Nav {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding: 10px;
-  height: 110px;
+  height: fit-content;
   display: flex;
 }
 
@@ -82,7 +82,7 @@ h4 {
 
 .list h3 {
   margin: 0px 10px 0px 10px;
-  display: inline;
+  display: inline-flex;
   cursor: pointer;
 }
 

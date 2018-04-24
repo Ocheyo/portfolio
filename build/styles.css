@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -11,97 +15,111 @@ h5 {
   font-weight: normal;
 }
 
-#root {
-  background: cadetblue;
+hr {
+  border: 1px solid brown;
+  background-color: brown;
 }
 
-.Sidebar {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  box-shadow: 5px -10px 10px 5px slategray inset;
-  display: inline-block;
-  padding: 10px;
-  background-color: darkslategray;
-  color: antiquewhite;
-  text-align: center;
-  width: 100px;
-  height: -webkit-fill-available;
-}
-
-.Sidebar h3 {
-  padding-top: 10px;
-}
-
-.Sidebar p {
-  margin: 10px 0 10px 0;
-}
-
-.Sidebar a {
-  display: block;
-  margin: 10px 0 10px 0;
-  text-decoration: none;
-}
-
-.Sidebar a:link {
-  color: antiquewhite;
-}
-
-.Sidebar a:visited {
-  color: antiquewhite;
+.page {
+  display: flex;
 }
 
 .Nav {
-  font-family: Cambria,
-  Cochin,
-  Georgia,
-  Times,
-  'Times New Roman',
-  serif;
-  box-shadow: 5px 10px 10px 5px slategray inset;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding: 10px;
-  background-color: darkslategray;
-  height: 90px;
-  width: 100%;
-  display: block;
+  height: 110px;
+  display: flex;
+}
+
+.contact {
+  flex: 1;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contact h2,
+h4 {
+  margin: 15px 0 0 20px;
+}
+
+.contact h4 {
+  cursor: pointer;
+}
+
+.info {
+  background-color: white;
+  z-index: 2;
+  top: 0;
+  left: 260px;
+  position: absolute;
+  overflow: visible;
+  border: 1px solid brown;
 
 }
 
+.info p {
+  padding: 5px;
+  margin: 0;
+}
+
+.info a {
+  text-decoration: none;
+}
+
+.info a:link {
+  color: black;
+}
+
+.info a:visited {
+  color: black;
+}
+
 .list {
+  float: right;
   margin: 30px 0px 0px 20px;
-  color: antiquewhite;
   font-size: 25px;
-  position: absolute;
-  display: inline-flex;
 }
 
 .list h3 {
   margin: 0px 10px 0px 10px;
   display: inline;
   cursor: pointer;
-  min-width: 100px;
 }
 
 .pic {
   border-radius: 50%;
   height: 100px;
   width: 100px;
+  box-shadow: -2px 0px 3px 5px cadetblue;
 }
 
 .content {
-  background-color: cadetblue;
-  background-image: repeating-linear-gradient(120deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .1) 1px, transparent 1px, transparent 60px),
-  repeating-linear-gradient(60deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .1) 1px, transparent 1px, transparent 60px),
-  linear-gradient(60deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1)),
-  linear-gradient(120deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1));
-  background-size: 70px 120px;
   font-family: Helvetica, Arial, sans-serif;
-  display: inline-block;
-  position: absolute;
   padding: 10px 10px 10px 10px;
 }
 
 .content p {
   font-size: 18px;
-  width: 85%;
+  padding: 0;
+  margin: 10px;
+}
+
+.content h5 {
+  margin: 5px;
+  color: slategray;
+}
+
+.content a:link {
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.content a:visited {
+  color: black;
+}
+
+.content a:hover {
+  text-decoration-color: cadetblue;
 }
 
 .screenshot {
@@ -110,17 +128,16 @@ h5 {
 }
 
 .screenshot:hover {
-  transform: scale(2) translate(25px);
+  transform: scale(2) translate(75px);
   z-index: 2;
 }
 
-.content a:link {
-  color: black;
-  font-weight: bold;
-  font-size: 25px;
-  text-decoration: none;
+.underline {
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-shadow: 2px 3px forestgreen;
 }
 
-.content a:visited {
-  color: black;
+.hidden {
+  display: none;
 }

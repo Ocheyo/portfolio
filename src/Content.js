@@ -11,7 +11,7 @@ class Content extends Component {
 }
 
 const contents = {
-  Home: (
+  'About Me': (
     <div>
       <h3>SOFTWARE ENGINEER</h3>
       <p>As a software engineer, I enjoy bringing my particular creative and intuitive approach to problem-solving. I really dig algorithms, reminiscent of working through puzzle books as a child. Brain teasers and riddles were addicting. Now, code challenges and app development provide that rush.</p>

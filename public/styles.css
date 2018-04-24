@@ -15,107 +15,97 @@ h5 {
   font-weight: normal;
 }
 
-#root {
-  background-color: cadetblue;
-  background-image: repeating-linear-gradient(120deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .1) 1px, transparent 1px, transparent 60px),
-  repeating-linear-gradient(60deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .1) 1px, transparent 1px, transparent 60px),
-  linear-gradient(60deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1)),
-  linear-gradient(120deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1));
-  background-size: 70px 120px;
+hr {
+  border: 1px solid brown;
+  background-color: brown;
 }
 
 .page {
   display: flex;
 }
 
-.Sidebar {
+.Nav {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  box-shadow: 15px -20px 30px 5px slategray inset;
-  display: inline-block;
   padding: 10px;
-  background-color: darkslategray;
-  color: antiquewhite;
-  text-align: center;
-  width: 110px;
-  height: -webkit-fill-available;
+  height: 110px;
+  display: flex;
 }
 
-.Sidebar h3 {
-  padding-top: 10px;
+.contact {
+  flex: 1;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.Sidebar p {
-  margin: 10px 0 10px 0;
+.contact h2,
+h4 {
+  margin: 15px 0 0 20px;
 }
 
-.Sidebar a {
-  display: block;
-  margin: 10px 0 10px 0;
+.contact h4 {
+  cursor: pointer;
+}
+
+.info {
+  background-color: white;
+  z-index: 2;
+  top: 0;
+  left: 260px;
+  position: absolute;
+  overflow: visible;
+  border: 1px solid brown;
+
+}
+
+.info p {
+  padding: 5px;
+  margin: 0;
+}
+
+.info a {
   text-decoration: none;
 }
 
-.Sidebar a:link {
-  color: antiquewhite;
+.info a:link {
+  color: black;
 }
 
-.Sidebar a:visited {
-  color: antiquewhite;
-}
-
-.Nav {
-  font-family: Cambria,
-  Cochin,
-  Georgia,
-  Times,
-  'Times New Roman',
-  serif;
-  box-shadow: 15px 20px 30px 5px slategray inset;
-  padding: 10px;
-  background-color: darkslategray;
-  height: 110px;
-  display: block;
-
+.info a:visited {
+  color: black;
 }
 
 .list {
+  float: right;
   margin: 30px 0px 0px 20px;
-  color: antiquewhite;
-  position: absolute;
   font-size: 25px;
-  display: inline-flex;
 }
 
 .list h3 {
   margin: 0px 10px 0px 10px;
   display: inline;
   cursor: pointer;
-  min-width: 100px;
 }
 
 .pic {
   border-radius: 50%;
   height: 100px;
   width: 100px;
+  box-shadow: -2px 0px 3px 5px cadetblue;
 }
 
 .content {
   font-family: Helvetica, Arial, sans-serif;
-  display: inline-block;
   padding: 10px 10px 10px 10px;
 }
 
 .content p {
   font-size: 18px;
+  padding: 0;
+  margin: 10px;
 }
 
-.screenshot {
-  width: 350px;
-  padding: 10px;
-}
-
-.screenshot:hover {
-  transform: scale(2) translate(25px);
-  z-index: 2;
+.content h5 {
+  margin: 5px;
+  color: slategray;
 }
 
 .content a:link {
@@ -126,4 +116,28 @@ h5 {
 
 .content a:visited {
   color: black;
+}
+
+.content a:hover {
+  text-decoration-color: cadetblue;
+}
+
+.screenshot {
+  width: 350px;
+  padding: 10px;
+}
+
+.screenshot:hover {
+  transform: scale(2) translate(75px);
+  z-index: 2;
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-shadow: 2px 3px cadetblue;
+}
+
+.hidden {
+  display: none;
 }

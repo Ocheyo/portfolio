@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Sidebar from './Sidebar';
 import Nav from './Nav';
 import Content from './Content';
 
@@ -7,7 +6,7 @@ class Home extends Component {
   constructor() {
     super();
     this.state = {
-     current: 'Home'
+     current: 'About Me'
     };
   }
 
@@ -19,8 +18,8 @@ class Home extends Component {
     return (
       <div>
         <Nav current={this.state.current} onClick={this.clickHandler.bind(this)}/>
+        <hr />
         <div className="page">
-          <Sidebar />
           <Content current={this.state.current} />
         </div>
       </div>

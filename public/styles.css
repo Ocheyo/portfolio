@@ -20,6 +20,10 @@ hr {
   background-color: rgba(128, 43, 0);
 }
 
+a:hover {
+  font-style: italic;
+}
+
 .page {
   display: flex;
 }
@@ -48,7 +52,7 @@ h4 {
 .info {
   background-color: white;
   z-index: 2;
-  top: 0;
+  top: 3px;
   left: 260px;
   position: absolute;
   overflow: visible;
@@ -111,7 +115,6 @@ h4 {
 
 .content a:link {
   color: black;
-  font-weight: bold;
   font-size: 25px;
 }
 
@@ -119,8 +122,12 @@ h4 {
   color: black;
 }
 
-.content a:hover {
-  font-style: italic;
+.repo {
+  text-decoration: none;
+  color: darkslategray;
+  font-size: 20px !important;
+  opacity: 0.7;
+  padding-left: 10px;
 }
 
 .screenshot {
@@ -129,7 +136,7 @@ h4 {
 }
 
 .screenshot:hover {
-  transform: scale(2) translate(75px);
+  transform: scale(1.75) translate(50px);
   z-index: 2;
 }
 

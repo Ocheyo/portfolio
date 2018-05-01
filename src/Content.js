@@ -22,7 +22,7 @@ const contents = {
 
   Shogi: (
     <div>
-      <a href="http://shogi.gg">Shogi-Grandmasters</a>
+      < a href = "http://shogi.gg" > Shogi - Grandmasters </a><a className="repo" href="https://github.com/Shogi-Grandmasters/shogi-grandmasters">Github Repo</a>
       <p>Sign up and play Shogi (Japanese variant of chess) against real opponents; challenge your friends to ranked or unranked matches</p>
       <h5>Tech Stack: Javascript | React | React Router | Socket.io | Node | Express | Postgres | Redis | AWS EC2 | AWS RDS</h5>
       <img className="screenshot" src="https://i.imgur.com/gxPefdC.png" alt="screenshot"/>
@@ -32,7 +32,7 @@ const contents = {
 
   Redidit: (
     <div>
-      <a href="http://aask4-redidit.herokuapp.com">Redidit</a>
+      < a href = "http://aask4-redidit.herokuapp.com" > Redidit </a><a className="repo" href="https://github.com/aask4/redidit">Github Repo</a>
       <p>Reddit clone, containing functionality such as posts, comments, subreddits, and subscriptions</p>
       <h5>Tech Stack: Javascript | React | Redux | React Router | Node | Express | Postgres | Heroku</h5>
       <img className="screenshot" src="https://i.imgur.com/F1KuxbA.png" alt="screenshot" />
@@ -42,7 +42,7 @@ const contents = {
 
   Commander: (
     <div>
-      <a href="https://ocheyo.github.io/commander-decks">Commander Decklists</a>
+      < a href = "https://ocheyo.github.io/commander-decks" > Commander Decklists < /a><a className="repo" href="https://github.com/Ocheyo/commander-decks">Github Repo</a>
       <p>Personally constructed decklists for my favorite Magic: The Gathering format</p>
       <h5>Tech Stack: Vanilla Javascript | Raw CSS</h5>
       <img className="screenshot" src="https://i.imgur.com/qgPJyUi.png" alt="screenshot" />

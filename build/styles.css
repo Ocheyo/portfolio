@@ -16,8 +16,12 @@ h5 {
 }
 
 hr {
-  border: 1px solid brown;
-  background-color: brown;
+  border: 1px solid rgba(128, 43, 0);
+  background-color: rgba(128, 43, 0);
+}
+
+a:hover {
+  font-style: italic;
 }
 
 .page {
@@ -27,7 +31,7 @@ hr {
 .Nav {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding: 10px;
-  height: 110px;
+  height: fit-content;
   display: flex;
 }
 
@@ -48,11 +52,12 @@ h4 {
 .info {
   background-color: white;
   z-index: 2;
-  top: 0;
+  top: 3px;
   left: 260px;
   position: absolute;
   overflow: visible;
-  border: 1px solid brown;
+  border: 1px solid rgba(128, 43, 0);
+  box-shadow: 2px 2px 3px 2px rgba(128, 43, 0);
 
 }
 
@@ -81,7 +86,7 @@ h4 {
 
 .list h3 {
   margin: 0px 10px 0px 10px;
-  display: inline;
+  display: inline-flex;
   cursor: pointer;
 }
 
@@ -89,7 +94,7 @@ h4 {
   border-radius: 50%;
   height: 100px;
   width: 100px;
-  box-shadow: -2px 0px 3px 5px cadetblue;
+  box-shadow: -2px 0px 3px 5px rgba(0, 77, 0);
 }
 
 .content {
@@ -110,7 +115,6 @@ h4 {
 
 .content a:link {
   color: black;
-  font-weight: bold;
   font-size: 25px;
 }
 
@@ -118,8 +122,10 @@ h4 {
   color: black;
 }
 
-.content a:hover {
-  text-decoration-color: cadetblue;
+.repo {
+  text-decoration: none;
+  color: darkslategray;
+  font-size: 20px;
 }
 
 .screenshot {
@@ -128,14 +134,14 @@ h4 {
 }
 
 .screenshot:hover {
-  transform: scale(2) translate(75px);
+  transform: scale(1.75) translate(50px);
   z-index: 2;
 }
 
 .underline {
   text-decoration: underline;
   text-decoration-color: white;
-  text-shadow: 2px 3px forestgreen;
+  text-shadow: 2px 3px rgba(0, 77, 0, 0.5);
 }
 
 .hidden {
